@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BaruActivity">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG DI"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auxyl"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/merah"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_ava"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_prosesLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textColor="@color/orange"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+</RelativeLayout>

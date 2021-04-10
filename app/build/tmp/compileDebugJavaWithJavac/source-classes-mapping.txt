@@ -1,0 +1,2 @@
+com/example/auxyl/BuildConfig.java
+ com.example.auxyl.BuildConfig
